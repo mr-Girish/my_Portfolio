@@ -1,8 +1,10 @@
 import './App.css';
+import Aboutme from './Comopnents/Aboutme';
 import pic from './images/pic.jpeg'
 function App() {
   return (
-    <div className="App bg-[#436DBF] h-screen flex justify-center items-center">
+   <>
+       <div className="App bg-[#436DBF] h-screen flex justify-center items-center">
        <div className='main_div h-3/4 w-1/2 '>
             <div className='inner_div flex justify-center  '>
                 <img   src={pic} className=" w-36 h-36 rounded-full border-4" alt="" />
@@ -45,6 +47,8 @@ function App() {
            </div>
        </div>
     </div>
+    <Aboutme/>
+   </>
   );
 }
 
